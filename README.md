@@ -17,7 +17,7 @@
 # Todos estos endpoints ahora funcionan correctamente:
     # Swagger UI (200 OK)           http://192.168.1.37/api/docs         
     # OpenAPI schema (200 OK JSON)  http://192.168.1.37/api/openapi.json  
-    # Acceso directo (200 OK)       http://192.168.1.37:8001/docs        
+    # Acceso directo (200 OK)       http://192.168.1.37:8000/docs        
     
 # ambiente de python
 # Is done: Descripción explicativa de la actividad entregada
@@ -82,7 +82,7 @@
     docker-compose rm -f IADeepSeek nginx
 
 ## web de Inicio 
-    curl -I http://192.168.1.37:8001    # fastapi
+    curl -I http://192.168.1.37:8000    # fastapi
     curl -I http://192.168.1.37/        # nginx / IADeepSeek proxy
     curl -I http://192.168.1.37/IADeepSeek/    # IADeepSeek
 
